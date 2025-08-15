@@ -23,40 +23,45 @@ This tool is designed to be **useful for everyone** – from regular internet us
 ```bash
 git clone https://github.com/Animhassen/JU.git
 cd JU
-
+```
 
 
 
 2️⃣ Install Dependencies
 Using npm:
-
+```bash
 npm install
+```
 Or with pnpm:
-
+```bash
 pnpm install
+```
 Or with yarn:
-
+```bash
 yarn install
+```
 3️⃣ Set Up Environment Variables
 Create a .env.local file in the root directory and add:
-
+```bash
 NEXT_PUBLIC_VIRUSTOTAL_API_KEY=your_api_key_here
+```
 You can get a free VirusTotal API key from https://www.virustotal.com/gui/join-us
 
 🚀 Running the App
 Development Mode
+```bash
 npm run dev
+```
 or
-
+```bash
 pnpm dev
+```
 This will start the app on:
 
 http://localhost:3000
-Production Build
-npm run build
-npm start
 
-```
+
+
 🛠 How to Use
 Open the app in your browser.
 
