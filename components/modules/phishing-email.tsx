@@ -44,7 +44,7 @@ export function PhishingEmail() {
 
     try {
       const apiKey = process.env.NEXT_PUBLIC_GROQ_API_KEY;
-      if (!apiKey) throw new Error("Missing Groq API key. Add NEXT_PUBLIC_GROQ_API_KEY in .env.local");
+      if (!apiKey) throw new Error("Missing Groq API key. Add NEXT_PUBLIC_GROQ_API_KEY in .env.1local");
 
       const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
