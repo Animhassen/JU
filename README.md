@@ -29,8 +29,9 @@ cd JU
 
 2️⃣ Install Dependencies
 Using npm:
+use -force on windows like npm install -force
 ```bash
-npm install
+npm install 
 ```
 Or with pnpm:
 ```bash
